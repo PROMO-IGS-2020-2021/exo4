@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire</title>
+</head>
+<body style="background: rgba(63, 191, 251, 0.496);
+background: linear-gradient(90deg, rgba(63, 191, 251, 0.605) 3%, rgba(252, 122, 148, 0.659) 99%);">
+ <h1>Formulaire</h1>
+
+ <form>
+     <div>
+     <fieldset>
+         <legend>Nom et Prenon</legend>
+         <p>
+          Nom   <input type="text" name="Nom" id="">
+          Prenom  <input type="text" name="Nom" id="">
+         </p>
+     </fieldset>
+     </div>
+     <div>
+<fieldset>
+    <legend>Date de naissance</legend>
+    <label for="start">date de naissance:</label>
+
+    <input type="date" id="start" name="trip-start"
+           value="2000-01-01"
+           min="01-01-2000" max="31-12-2021">
+         
+</fieldset>
+  </div>
+  <div>
+<fieldset>
+    <legend>Genre</legend>
+   <p> <label for="start">Homme</label> 
+    <input type="radio" id="homme" name="homme"></p>
+
+   <p> <label for="start">Femme</label>
+     <input type="radio" id="Femme" name="Femme"></p>
+   
+</fieldset>
+
+</div>
+<div>
+    <fieldset>
+        <legend>statut phisyque</legend>
+       <p> <label for="start">handicap</label> 
+        <input type="radio" id="homme" name="homme"></p>
+    
+       <p> <label for="start">pas d'handicap</label>
+         <input type="radio" id="Femme" name="Femme"></p>
+         <p>
+         ou etre vous handicape? <br> <textarea name="Decrivez le" id="" cols="60" rows="10"></textarea>
+         </p>
+
+       
+    </fieldset>
+    <div>
+        <fieldset>
+            <legend>contact telephonique</legend>
+            <p>
+                <label for="phone">Entrer votre numero:</label>
+
+                <input type="tel" id="phone" name="phone">
+            </p>
+        </fieldset>
+     </div>
+     <div class="bouton">
+            <input type="submit" value="Envoyer le formulaire">
+   </div>
+ </form>
+    
+</body>
+<script src="code.js"></script>
+</html>

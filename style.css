@@ -1,0 +1,24 @@
+fieldset{
+    background-color: rgba(54, 139, 162, 0.279);
+    width: 700px;
+   transform: translate(380px);
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+h1{
+   padding-left:660px;
+ }
+.bouton{
+
+    padding-left:660px ;
+    padding-top: 20px;
+    margin: 5px;
+}
+input {
+ 
+    border-radius: 5px;
+  
+    
+  }
+  
